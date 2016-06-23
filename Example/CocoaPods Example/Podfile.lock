@@ -1,0 +1,16 @@
+PODS:
+  - PSTModernizer (1.0.0)
+
+DEPENDENCIES:
+  - PSTModernizer (from `../../`)
+
+EXTERNAL SOURCES:
+  PSTModernizer:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  PSTModernizer: 651c734f4e6ee810b36623eea47fdb62550d2d4b
+
+PODFILE CHECKSUM: 17a25bb717b9aa4d5a864da37c7d9de86ee26d51
+
+COCOAPODS: 1.0.1
