@@ -25,9 +25,6 @@ A: Because we need to support older UIKit versions. [At PSPDFKit we support n-1]
 Q: *Isn't that partly using private API?*<br>
 A: Partly. The goal is to write workarounds using just public API, but it's not always possible or would lead to much more scary code. If we revert to private API, we use it for good, not evil. You decide. Since we restrict API usage to versions that have been already released and don't apply it to unknown versions, the risk is minimal. If you do find a way to patch things without private API that are similary effective and not 10x the code, please submit a pull request. We also only use it to work around bugs, not for accessing new features. Of course I can't make any guarantees if Apple accepts this on app review. (but so far we have not gotten a report that blocks this, and worst case you disable the parts that are private and just have a slightly more broken app.) 
 
-Q: *What about Cocoapods?*<br>
-A: Would love if anyone can help me out there - I'm a bit rusty on that but definitely planning to add that soon.
-
 ## License
 
 The MIT License (MIT)
