@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PSTModernizer' do
+  pod 'PSTModernizer', :path => '../../'
+
+
+end
