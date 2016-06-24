@@ -13,11 +13,13 @@ PSTModernizer carefully applies patches to UIKit and related Apple frameworks to
 
   s.homepage         = 'https://github.com/PSPDFKit-labs/PSTModernizer'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Peter Steinberger' => 'steipete@gmail.com' }
+  s.author           = { 'Peter Steinberger, PSPDFKit' => 'https://pspdfkit.com/' }
   s.source           = { :git => 'https://github.com/PSPDFKit-labs/PSTModernizer.git', :tag => s.version.to_s }
+  s.source_files = 'PSTModernizer/**/*'
   s.social_media_url = 'https://twitter.com/steipete'
 
   s.ios.deployment_target = '9.0'
+  s.tvos.deployment_target = '9.0'
+  s.xcconfig = { 'CLANG_MODULES_AUTOLINK' => 'YES' }
 
-  s.source_files = 'PSTModernizer/**/*'
 end
