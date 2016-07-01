@@ -23,8 +23,6 @@
 #define PSTClassObfuscate(...) NSClassFromString([NSString stringWithFormat:__VA_ARGS__])
 #define PSTSELObfuscate(...) NSSelectorFromString([NSString stringWithFormat:__VA_ARGS__])
 
-#define PST_STATIC extern "C" 
-
 // iOS 10 compatibility
 #ifndef kCFCoreFoundationVersionNumber_iOS_10_0
 #define kCFCoreFoundationVersionNumber_iOS_10_0 1300.0
