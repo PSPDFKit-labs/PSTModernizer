@@ -12,7 +12,7 @@ Simply copy `PSTModernizer.h/mm` into your project, then call `[PSTModernizer in
 Currently covers following radars (all of them have been fixed in iOS 10)
 
 * [26954460 - UIImage creation has a race conditon on background threads.](https://openradar.appspot.com/26954460)<br>
-  The radar here is actually for fixing the documentation, [the original issue is explained here in the AFNetworking repo.](https://github.com/AFNetworking/AFNetworking/issues/2572#issuecomment-227895102)
+  The radar is actually for fixing the documentation, [the original issue is explained here.](https://pspdfkit.com/blog/2016/investigating-thread-saftey-of-UIImage/)
 * [26295020 - Action sheets presented for links/numbers don’t work in presented view controllers](https://openradar.appspot.com/26295020)
 
 You can simply delete the workarounds that do not affect you - every workaround is self-contained and can be individually removed.
