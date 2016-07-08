@@ -85,7 +85,7 @@ PST_PARTIAL_AVAILABILITY_END }
 
 #endif
 
-    // In antizipation that we'll find bugs in iOS 10 that we run as well, not everything is blocked when you compile with iOS 10 only.
+    // In anticipation that we'll find bugs in iOS 10 that we run as well, not everything is blocked when you compile with iOS 10 only.
     NSLog(@"%@ version %.0f installed.", NSStringFromClass(self.class), self.version);
 }
 
