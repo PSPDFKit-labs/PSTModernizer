@@ -48,3 +48,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## About
+
+<a href="https://pspdfkit.com/">
+  <img src="https://avatars2.githubusercontent.com/u/1527679?v=3&s=200" height="80" />
+</a>
+
+This project is maintained and funded by [PSPDFKit](https://pspdfkit.com/).
+
+See [our other open source projects](https://github.com/PSPDFKit-labs), read [our blog](https://pspdfkit.com/blog/) or say hello on Twitter ([@PSPDFKit](https://twitter.com/pspdfkit)).
